@@ -9,7 +9,7 @@ workers_dev = true
 # 如需固定到指定资源，可在本地补充 id / preview_id。
 [[kv_namespaces]]
 binding = "SECRETS_KV"
-id = "4a960ce96eb2406da8d1e13b024b1aea"
+id = "035b83ed25924038aef8495ce93a1c1f"
 
 # 密钥存储协调（Durable Object）
 # 读取和修改密钥的请求都交给同一个 Durable Object 依次处理，避免多台设备同时修改时互相覆盖。
